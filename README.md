@@ -1,5 +1,5 @@
 # Source-Code
-Data Analytics with R, Data Visualization with Power Bi
+Data Analytics with R, Data Visualisation with Power Bi
 # Project Analysis
 Here, i will be guiding you through what i have done in the project, outputs, errors encountered and how i have managed to solve them as well.
 
@@ -25,6 +25,7 @@ str(df)
 
 # Check for missing values:
 
+#When i ran the colSums code i encountered an error, went online to do some findings and i found the 2nd code which worked
 colSums(is.na(df))
 df <- df[rowSums(is.na(df)) == 0, ]
 #or use this code 
