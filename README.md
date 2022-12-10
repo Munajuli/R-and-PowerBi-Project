@@ -15,6 +15,8 @@ Checking for scatterplots using the Bivarient Analysis, was basically to check t
 
 For the dashboard, I have used the client's specification on what to do;
 
+While creating my dashboard, I realised that there was a Null value in my dataset which was the clean dataset. I went to the original dataset to check it missing there and to know what next to do, I realised that the Null value was also in the original dataset but because it was just 1 Null value I filtered it out when creating my dashboard.
+
 For the dashboard, the company would like you to use their brand colors which are blue, green and brown. You can use light or dark shades of each color. For example, light blue and dark blue are acceptable. You can combine these colors any way that you like. For example, you can use only blue and green if you want to. 
 
 In your power BI Dashboard, the client would like to see: 
@@ -25,7 +27,7 @@ The audience score for each film  
 The profitability per studio 
 The worldwide gross per genre 
 
-And I have also created a 6th visual called
+And I have also created a 6th visual called Count of rotten tomatoes by Year
 
 
 
