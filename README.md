@@ -7,7 +7,7 @@ Data: Title, genre, studio, profitability and ratings for movies released 2007-2
 Download data from this link: 
 https://public.tableau.com/app/sample-data/HollywoodsMostProfitableStories.csv
 
-During the R analaysis, I encountered and error when I ran the code #colSums(is.na(df)) while checking for missing values, after a couple of trials, I found another code #df <- df[rowSums(is.na(df)) == 0, ] which when I ran it, worked perfectly.
+During the R analaysis, I encountered an error when I ran the code #colSums(is.na(df)) while checking for missing values, after a couple of trials, I found another code #df <- df[rowSums(is.na(df)) == 0, ] which when I ran it, worked perfectly.
 
 Knowing that an outlier can distort the normal distribution of a datatset, I have removed the outliers before checking for scatterplots
 
